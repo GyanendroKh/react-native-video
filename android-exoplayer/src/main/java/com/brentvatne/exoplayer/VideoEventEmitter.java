@@ -97,7 +97,7 @@ class VideoEventEmitter {
             EVENT_AUDIO_FOCUS_CHANGE,
             EVENT_PLAYBACK_RATE_CHANGE,
             EVENT_BANDWIDTH,
-            EVENT_PICTURE_IN_PICTURE_STATUS_CHANGED
+            EVENT_PICTURE_IN_PICTURE_STATUS_CHANGED,
             EVENT_EXTERNAL_PAUSE_TOGGLED
     })
     @interface VideoEvents {
