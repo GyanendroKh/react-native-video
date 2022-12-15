@@ -529,7 +529,7 @@ class ReactExoplayerView extends FrameLayout implements
 
                 //Use Media Session Connector from the ExoPlayer library to enable MediaSession Controls in PIP.
                 MediaSessionConnector mediaSessionConnector = new MediaSessionConnector(mediaSession);
-                mediaSessionConnector.setPlayer(player, null);
+                mediaSessionConnector.setPlayer(player);
                 mediaSession.setActive(true);
             }
         }, 1);

@@ -26,11 +26,6 @@ android {
     }
 }
 
-repositories {
-    // Remove this repository line after google releases to google() or mavenCentral()
-    maven { url "https://dl.google.com/android/maven2" }
-}
-
 dependencies {
     implementation "com.facebook.react:react-native:${safeExtGet('reactNativeVersion', '+')}"
     implementation('com.google.android.exoplayer:exoplayer:2.13.3') {
@@ -48,5 +43,5 @@ dependencies {
     implementation 'com.squareup.okhttp3:okhttp:${OKHTTP_VERSION}'
 
     // MediaSession extension
-    implementation 'com.google.android.exoplayer:extension-mediasession:2.8.1'
+    implementation 'com.google.android.exoplayer:extension-mediasession:2.13.3'
 }
